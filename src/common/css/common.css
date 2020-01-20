@@ -1,0 +1,70 @@
+/*页面重定义*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html{
+  width: 100%;
+  min-width: 1170px;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+body{
+  padding: 0;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+form,
+blockquote {
+  margin: 0;
+}
+
+ul,
+ol,
+li,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none outside none;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #cccccc;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #cccccc;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #cccccc;
+}
+
+.container{
+  clear: both;
+  width: 1270px;
+  /*设置页面主要内容宽度*/
+  margin: auto;
+  height: auto;
+  /*overflow: hidden;*/
+  background-color: #333333;
+  font-size: 0;
+}
+/*页面重定义.end*/
